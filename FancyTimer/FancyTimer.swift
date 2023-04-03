@@ -10,7 +10,8 @@ import SwiftUI
 import Combine
 
 class FancyTimer: ObservableObject {
-    var value: Int = 0
+    
+    @Published var value: Int = 0
     
     init() {
         Timer.scheduledTimer(withTimeInterval: 1.0, repeats: true) { timer in

@@ -55,9 +55,9 @@
 			children = (
 				1FDCD53629DB480F004F7E5D /* FancyTimerApp.swift */,
 				1FDCD53829DB480F004F7E5D /* ContentView.swift */,
+				1FDCD54429DB484F004F7E5D /* FancyTimer.swift */,
 				1FDCD53A29DB4815004F7E5D /* Assets.xcassets */,
 				1FDCD53C29DB4815004F7E5D /* Preview Content */,
-				1FDCD54429DB484F004F7E5D /* FancyTimer.swift */,
 			);
 			path = FancyTimer;
 			sourceTree = "<group>";
