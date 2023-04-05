@@ -13,6 +13,7 @@
 		1FDCD53E29DB4815004F7E5D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1FDCD53D29DB4815004F7E5D /* Preview Assets.xcassets */; };
 		1FDCD54529DB484F004F7E5D /* FancyTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FDCD54429DB484F004F7E5D /* FancyTimer.swift */; };
 		1FDCD54829DDFC90004F7E5D /* UserSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FDCD54729DDFC90004F7E5D /* UserSettings.swift */; };
+		1FDCD54C29DDFE4B004F7E5D /* FancyScoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FDCD54B29DDFE4B004F7E5D /* FancyScoreView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		1FDCD53D29DB4815004F7E5D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		1FDCD54429DB484F004F7E5D /* FancyTimer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FancyTimer.swift; sourceTree = "<group>"; };
 		1FDCD54729DDFC90004F7E5D /* UserSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserSettings.swift; sourceTree = "<group>"; };
+		1FDCD54B29DDFE4B004F7E5D /* FancyScoreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FancyScoreView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 			children = (
 				1FDCD53629DB480F004F7E5D /* FancyTimerApp.swift */,
 				1FDCD53829DB480F004F7E5D /* ContentView.swift */,
+				1FDCD54B29DDFE4B004F7E5D /* FancyScoreView.swift */,
 				1FDCD54629DDFC7F004F7E5D /* Models */,
 				1FDCD53A29DB4815004F7E5D /* Assets.xcassets */,
 				1FDCD53C29DB4815004F7E5D /* Preview Content */,
@@ -153,6 +156,7 @@
 			files = (
 				1FDCD53929DB480F004F7E5D /* ContentView.swift in Sources */,
 				1FDCD54829DDFC90004F7E5D /* UserSettings.swift in Sources */,
+				1FDCD54C29DDFE4B004F7E5D /* FancyScoreView.swift in Sources */,
 				1FDCD53729DB480F004F7E5D /* FancyTimerApp.swift in Sources */,
 				1FDCD54529DB484F004F7E5D /* FancyTimer.swift in Sources */,
 			);

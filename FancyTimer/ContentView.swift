@@ -23,6 +23,8 @@ struct ContentView: View {
             Button("Increment score") {
                 self.userSettings.score += 1
             }
+            
+            FancyScoreView()
         }
     }
 }
