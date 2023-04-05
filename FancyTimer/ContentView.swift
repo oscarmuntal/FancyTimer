@@ -10,7 +10,7 @@ import SwiftUI
 struct ContentView: View {
     
     @ObservedObject var fancyTimer = FancyTimer()
-    @ObservedObject var userSettings = UserSettings()
+    @EnvironmentObject var userSettings: UserSettings
     
     var body: some View {
         VStack {
@@ -24,13 +24,13 @@ struct ContentView: View {
                 self.userSettings.score += 1
             }
             
-            FancyScoreView(score: self.$userSettings.score)
+            FancyScoreView()
         }
     }
 }
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        ContentView().environmentObject(UserSettings())
     }
 }
